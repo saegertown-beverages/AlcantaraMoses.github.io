@@ -2655,7 +2655,9 @@ padding: 5px;
 				font-size: 14pt;
 				line-height: 1.75em;
 			}
-
+			.hide-wide {
+				display: none;
+			}
 		/* Carousel */
 
 			.carousel {
@@ -2731,6 +2733,7 @@ padding: 5px;
 				line-height: 1.65em;
 			}
 
+
 			.tweet {
 				text-align: center;
 			}
@@ -2777,6 +2780,13 @@ padding: 5px;
 				font-size: 12.5pt;
 				line-height: 1.5em;
 			}
+			.show-mobile {
+			        display: block;
+			      }
+			      .hide-mobile {
+			        display: none;
+			      }
+
 
 			h2 {
 				font-size: 1.75em;
