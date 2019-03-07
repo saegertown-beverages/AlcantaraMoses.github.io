@@ -2209,12 +2209,36 @@ input, select, textarea {
   padding: 20px;
 
 		}
+		#header h2 {
+			color: black;
+			font-size: 1.6em;
+			line-height: 1em;
+			background-color: white;
+	    padding: 7px; /*add this if you want a bit of space around the text*/
+			border-radius: 15px 50px;
 
+  padding: 20px;
+
+		}
+
+
+		#header h3 {
+			color: black;
+			font-size: 1em;
+			line-height: 1em;
+			background-color: white;
+			padding: 7px; /*add this if you want a bit of space around the text*/
+			border-radius: 15px 50px;
+
+		padding: 10px;
+
+		}
 
 
 
 			#header h1 a {
 				color: inherit;
+
 			}
 
 		#header .button {
@@ -2287,6 +2311,11 @@ input, select, textarea {
 		padding: 1.5em 0 1.5em 0;
 		z-index: 1;
 		overflow: hidden;
+		font-size: 1.5em;
+	 /*add this if you want a bit of space around the text*/
+		border-radius: 15px 50px;
+background-color: white;
+padding: 5px;
 	}
 
 		#nav > ul {
