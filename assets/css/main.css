@@ -1891,6 +1891,7 @@ input, select, textarea {
 		line-height: 1em;
 		list-style: none;
 		padding-left: 0;
+		font-size: 2em;
 	}
 
 		ul.menu li {
@@ -2164,7 +2165,7 @@ input, select, textarea {
 	#header {
 		position: static;
 		background-image: url("../../images/header.JPG");
-	background-size: cover;
+	background-size: 100%;
 		background-position: center;
 		background-attachment: fixed;
 		color: #000000;
@@ -2516,7 +2517,13 @@ padding: 5px;
 		#footer .copyright {
 			text-align: center;
 			color: rgba(128, 128, 128, 0.75);
-			font-size: 0.8em;
+			font-size: 5em;
+			cursor: default;
+		}
+		#footer .contactr {
+			text-align: center;
+			color: rgba(128, 128, 128, 0.75);
+			font-size: 2em;
 			cursor: default;
 		}
 
