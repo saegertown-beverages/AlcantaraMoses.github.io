@@ -2203,8 +2203,8 @@ input, select, textarea {
 			color: #fff;
 			font-size: 3em;
 			line-height: 1em;
-			background-color: black;
-	    padding: 10px; /*add this if you want a bit of space around the text*/
+			/*background-color: black;
+	    padding: 10px; add this if you want a bit of space around the text*/
 			border-radius: 15px 50px;
 
   padding: 20px;
