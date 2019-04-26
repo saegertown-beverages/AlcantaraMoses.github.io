@@ -2163,10 +2163,10 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		position: static;
+		position: relative;
 		background-image: url("../../images/header.JPG");
-	background-size: 100%;
-		background-position: center;
+	background-size: cover;
+		background-position: center center;
 		background-attachment: fixed;
 		color: #000000;
 		text-align: center;
